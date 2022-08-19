@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(153, 153, 153, 0.598);
+    font-family: 'Lato', sans-serif;
+    color:rgb(55, 55, 55);
+ 
+}
+fieldset {
+    margin: 15vh auto;
+    padding: 1.4em;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1ps solid gray;
+    border-radius: 25px;
+}
+#buttonfield {
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7em;
+}
+hr {
+    width: 25%;
+}
+fieldset h2 {
+    line-height: 2.4em;
+}
+#inputfield-mail {
+    margin-bottom: 2em;
+}
+#inputfield-pw {
+    margin-bottom: 2em;
+}
+#fb-button {
+    margin-bottom: 2em;
+}
+#inputfield-mail p {
+    font-size: small;
+}
+#inputfield-pw p {
+    font-size: small;
+}
+input {
+    width: 100%;
+    border-radius: 7px;
+    height: 2em;
+}
+#buttonfield {
+    line-height: 2.4em;
+}
+/* 
+#mail, #pass {
+    border-radius: 7px;
+    height: 2em;
+} */
+input[type="submit" i] {
+    background-color: #E60023;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 25px;
+    height: 2.7em;
+    padding: 0.6em;
+    border-width: 0;
+}
+input[type="button" i] {
+    background-color: #0054e6;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 25px;
+    height: 2.7em;
+    padding: 0.6em;
+    border-width: 0;
+}
+#login:hover, #fb-button:hover {
+    cursor: pointer;
+}
+#login:hover {
+    background-color: #bf001d;
+}
+@media (max-width: 425px) {
+    fieldset {
+        width: 85vw;
+    }
+}
+@media (max-width: 768px) {
+    fieldset {
+        width: 85vw;
+        margin-top: 10vw;
+    }
+}
+@media (max-width: 1024px){
+    fieldset {
+        margin-top: 10vw;
+    }
+}
+@media (max-width: 1440px){
+    fieldset {
+        width: 30vw;
+        margin-top: 8vw;
+    }
+}
+@media (max-width: 2560px){
+    fieldset {
+        margin-top: 6vw;
+    }
+}
