@@ -88,6 +88,10 @@ input[type="button" i] {
 #login:hover {
     background-color: #bf001d;
 }
+hr {
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
 @media (max-width: 425px) {
     fieldset {
         width: 85vw;
