@@ -7,6 +7,7 @@ body {
     background-color: rgba(153, 153, 153, 0.598);
     font-family: 'Lato', sans-serif;
     color:rgb(55, 55, 55);
+    overflow-y: hidden;
  
 }
 fieldset {
@@ -59,11 +60,13 @@ input {
 #buttonfield {
     line-height: 2.4em;
 }
-/* 
+
 #mail, #pass {
-    border-radius: 7px;
-    height: 2em;
-} */
+    border-radius: 19px;
+    height: 3em;
+    font-size: 1.1em;
+    border-color: rgb(143, 143, 143);
+}
 input[type="submit" i] {
     background-color: #E60023;
     color: #fff;
